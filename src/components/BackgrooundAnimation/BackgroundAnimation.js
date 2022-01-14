@@ -8,7 +8,7 @@ const BackgroundAnimation = () => (
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g opacity="0.15">
+      <g opacity="1.5">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -28,9 +28,9 @@ const BackgroundAnimation = () => (
         />
       </g>
       <ellipse
-        cx="295.027"
-        cy="193.118"
-        transform="translate(-295.027 -193.118)"
+        cx="395.027"
+        cy="493.118"
+        transform="translate(-25.027 -193.118)"
         rx="1.07306"
         ry="1.07433"
         fill="#945DD6"
@@ -51,16 +51,16 @@ const BackgroundAnimation = () => (
       <ellipse
         cx="295.027"
         cy="193.118"
-        transform="translate(-295.027 -193.118)"
+        transform="translate(-25.027 -193.118)"
         rx="1.07306"
         ry="1.07433"
         fill="#46737"
       >
         <animateMotion
           dur="5s"
-          begin="1"
+          begin="10"
           repeatCount="indefinite"
-          rotate="auto"
+          rotate="left"
         >
           <mpath xlinkHref="#path_2" />
         </animateMotion>

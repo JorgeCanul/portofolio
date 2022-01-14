@@ -67,17 +67,38 @@ export const Intro = styled.div`
 
 
 export const CardInfo = styled.p`
-  width: 100%;
-  padding: 0 50px;
-  color: #e4e6e7;
-  font-style: 2rem;
-  line-height: 24px;
-  text-align: justify;
-  @media ${(props) => props.theme.breakpoints.sm} {
-    padding:.3rem
-  
+font-size: 18px;
+line-height: 30px;
+color: rgba(255, 255, 255, 0.75);
+padding: 10px 10px;
+@media ${props => props.theme.breakpoints.md}{
+  font-size: 16px;
+  line-height: 28px;
 }
+
+@media ${props => props.theme.breakpoints.sm}{
+  font-size: 14px;
+  line-height: 22px;
+  padding: 1rem
+}
+
 `;
+
+
+// font-size: 18px;
+//   line-height: 30px;
+//   color: rgba(255, 255, 255, 0.75);
+// padding: 0 50px;
+//   @media ${props => props.theme.breakpoints.md}{
+//     font-size: 16px;
+//     line-height: 28px;
+//   }
+
+//   @media ${props => props.theme.breakpoints.sm}{
+//     font-size: 14px;
+//     line-height: 22px;
+// padding:.3rem
+//   }
 
 
 export const UtilityList = styled.ul`

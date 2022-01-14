@@ -44,8 +44,17 @@ const Timeline = () => {
 
   return (
     <Section id="about">
+      <SectionDivider /> <br/>
       <SectionTitle>About Me</SectionTitle>
-      <SectionText>Lorem10</SectionText>
+      <SectionText>
+      In 2018 I left the hospitality industry to be at home with my daughter full-time. This change was the catalyst to my shifting focus to learning web development which I had recently developed an interest in. I quickly became passionate about the subject and the extra time at home created the perfect opportunity for me to pivot career paths. My drive and focus enabled me to primarily use self-lead learning and the skills I developed culminated into an acceptance to Kal Academy. I am passionate about learning, and 
+      enjoy the challenge and reward of solving 
+      code-related tasks. I believe my curious 
+      nature, continuous love of learning, and 
+      ability to work cross-collaboratively will help
+      me succeed in the field of web development.
+      </SectionText>
+      
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
 
         <>
@@ -57,36 +66,6 @@ const Timeline = () => {
             onClick={(e) => handleClick(e, index)}>
               <CarouselItemTitle>
                 {item.year}
-                <CarouselItemImg
-                    width="208"
-                    height="6"
-                    viewBox="0 0 208 6"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M2.5 5.5C3.88071 5.5 5 4.38071 5 3V3.5L208 3.50002V2.50002L5 2.5V3C5 1.61929 3.88071 0.5 2.5 0.5C1.11929 0.5 0 1.61929 0 3C0 4.38071 1.11929 5.5 2.5 5.5Z"
-                      fill="url(#paint0_linear)"
-                      fill-opacity="0.33"
-                    />
-                    <defs>
-                      <linearGradient
-                        id="paint0_linear"
-                        x1="-4.30412e-10"
-                        y1="0.5"
-                        x2="208"
-                        y2="0.500295"
-                        gradientUnits="userSpaceOnUse">
-                        <stop stop-color="white" />
-                        <stop
-                          offset="0.79478"
-                          stop-color="white"
-                          stop-opacity="0"
-                        />
-                      </linearGradient>
-                    </defs>
-                  </CarouselItemImg>
               </CarouselItemTitle>
               <CarouselItemText>{item.text}</CarouselItemText>
             </CarouselItem>
@@ -106,6 +85,24 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
+      <SectionDivider /> <br />
+      <SectionTitle>EDUCATION</SectionTitle>
+      <SectionText>
+      Kal Academy | Certificate, 
+      Web Development
+      </SectionText>
+      <SectionDivider /> <br />
+      <SectionTitle>Skills and Abilities</SectionTitle>
+      <SectionText>
+      MANAGEMENT <br />
+	•  I used to oversee and coordinate wait staff during regular club hours and special events <br />
+	LIDERSHIP<br />
+       	 • Provide help, training and guidance to existing and new club staff <br />  
+	MULTIFACED <br />
+   	• Thorough understanding of the entire restaurant or Country Club experience as a result of holding many positions within the industry
+	Language
+	• Fluent in English and Spanish 
+      </SectionText>
       <SectionDivider />
     </Section>
   );

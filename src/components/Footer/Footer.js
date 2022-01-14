@@ -3,9 +3,12 @@ import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { Container, Div1, Div2, Div3, NavLink } from '../../components/Header/HeaderStyles';
 
 const Footer = () => {
   return (
+
+
     <FooterWrapper>
       <LinkList>
       <LinkColumn>
@@ -18,8 +21,9 @@ const Footer = () => {
       <LinkItem href='mailto:chivas818@gamil.com'>Email</LinkItem>
       </LinkColumn>
       </LinkList>
-    <SocialIconsContainer>
+     
 
+    <SocialIconsContainer>
       <SocialContainer>
         <CompanyContainer>
           <Slogan>Learning <br />Every day</Slogan>
