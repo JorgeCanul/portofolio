@@ -41,7 +41,7 @@ export const TimeLineData = [
   { year: 2017, text: 'Started my journey learning html, css and JavaScript as a self taught Web Dev', },
   { year: 2018, text: 'Continued developing the basic Web Dev skills', },
   { year: 2019, text: 'Explored more advanced concepts and skills including data structures and algorithms', },
-  { year: 2020, text: 'Relocated to Bend OR where I started networking with Web Dev professionals while continuing self-lead learning using Udemy, Coursera, Youtube et al. I built my first website.', },
+  { year: 2020, text: 'Relocated to Bend OR where I started networking with Web Dev professionals, while continuing self-lead learning using Udemy, Coursera, Youtube etc.', },
   { year: 2021, text: 'Enrolled in and graduated from Kal Academy at the top of my cohort.', },
 ];
 
