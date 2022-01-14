@@ -45,6 +45,15 @@ export const Box = styled.div`
       grid-row:2;
     }
   }
+
+  @media ${props => props.theme.breakpoints.xsm} {
+    height: 56rem;
+    padding: 12px;
+    
+    &:nth-child(2n){
+      grid-row:2;
+    }
+  }
 `
 export const BoxNum = styled.h5`
   font-style: normal;
