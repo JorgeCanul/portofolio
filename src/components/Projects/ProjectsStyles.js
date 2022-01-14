@@ -123,7 +123,7 @@ transition: 0.5s;
 `;
 
 export const TagList = styled.ul`
-display: flex;
+display: flex-wrap;
 justify-content: space-around;
 padding: 2rem;
 `

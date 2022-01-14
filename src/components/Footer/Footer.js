@@ -10,6 +10,7 @@ const Footer = () => {
 
 
     <FooterWrapper>
+
       <LinkList>
       <LinkColumn>
       <LinkTitle>Call</LinkTitle>
