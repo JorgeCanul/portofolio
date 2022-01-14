@@ -4,11 +4,8 @@ import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalCompon
 import { Box, Boxes, BoxNum, BoxText } from './ExperienceStyles';
 
 const data = [
-  { text: 'BANQUET MANAGER | OVERLAKE GOLF AND COUNTRY CLUB IN MEDINA, WASHINGTON STATE | 08-2014, 12-2017', description: '• Manage staff from beginning to end of shifts. Mange Social, Business, and golf events. Relations with members and guest, answer questions about every aspect of event services. Liasion between Catering Director,  Floor and Banquet Chef. Key contribution \:\
-	 Elevate member and guest satisfaction by providing a superior experience\.\
-	 Increase Club profitability by through upselling specialty item\s\
-	 Ensure guest satisfaction by investigating and resolving complaints "if any" in a timely manner\.\
-	Improve staff efficiency through effective communication and new work methods'},
+  { text: 'BANQUET MANAGER | OVERLAKE GOLF AND COUNTRY CLUB IN MEDINA, WASHINGTON STATE | 08-2014, 12-2017', description: '• Manage staff from beginning to end of shifts. Manage Social, Business, and golf events. Relations with members and guest, answer questions about every aspect of event services. Liasion between Catering Director, Floor and Banquet Chef. Key contribution \:\
+	 Elevate member and guest satisfaction by providing a superior experience'},
   {text: 'BANQUET CAPTIAN | THE HARBOR CLUB IN BELLEVUE WASHINGTON STATE | 06/2013 – 08/2014',  description: '• Manage Banquet staff from begging to end of shifts. Manage guest relations and every aspect of event services. Liaison between floor and kitchen\.\
 	Key contribution\:\
 	• Elevate member and guest satisfaction by providing a superior experienc\e\
