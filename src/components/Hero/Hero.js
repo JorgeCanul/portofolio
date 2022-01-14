@@ -11,7 +11,7 @@ const Hero = (props) => (
       <SectionTitle main center>
       Bienvenido, <br/>Welcome to My Portofolio
       </SectionTitle>
-      <SectionText>To secure a position in which I can utilize my skills and grow my current  knowledge and skill set</SectionText>
+      
       <Link href='#about'>
       <Button >Learn More</Button>
       </Link>

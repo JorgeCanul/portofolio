@@ -17,7 +17,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br/> React.js, Redux,  Next.js, Node.js, Express.js, Styled-Components, Material-UI
+            Experience with <br/> React.js, Redux,  Next.js, Node.js, Express.js, Styled-Components, Material-UI, diagrams.net, Google DevTools, Git
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -30,15 +30,7 @@ const Technologies = () =>  (
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      <ListItem>
-        <AiOutlineCluster size="3.5rem"/>
-        <ListContainer>
-          <ListTitle>Front-End</ListTitle>
-          <ListParagraph>
-            UI/UX<br/> Tools like diagrams.net, Google DevTools, Git, Heroku
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
+     
       <ListItem>
         <DiJsBadge size="3.5rem"/>
         <ListContainer>

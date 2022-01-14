@@ -47,7 +47,7 @@ const Timeline = () => {
       <SectionDivider /> <br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      In 2018 I left the hospitality industry to be at home with my daughter full-time. This change was the catalyst to my shifting focus to learning web development which I had recently developed an interest in. I quickly became passionate about the subject and the extra time at home created the perfect opportunity for me to pivot career paths. My drive and focus enabled me to primarily use self-lead learning and the skills I developed culminated into an acceptance to Kal Academy. I am passionate about learning, and 
+      In 2018 I left the hospitality industry to be at home with my daughter full-time. This change was the catalyst to my shifting focus to learning web development which I had recently developed an interest in. I quickly became passionated about the subject and the extra time at home created the perfect opportunity for me to pivot career paths. My drive and focus enabled me to primarily use self-lead learning the skills I developed culminated into an acceptance to Kal Academy. I am passionate about learning, and 
       enjoy the challenge and reward of solving 
       code-related tasks. I believe my curious 
       nature, continuous love of learning, and 
@@ -86,10 +86,16 @@ const Timeline = () => {
         ))}
       </CarouselButtons>
       <SectionDivider /> <br />
-      <SectionTitle>EDUCATION</SectionTitle>
+      <SectionTitle>Education</SectionTitle>
       <SectionText>
       Kal Academy | Certificate, 
-      Web Development
+      Web Development - Full Stack Program <br />
+      Udemy | Node with React: Fullstack Web Development by Stephen Grider<br />
+      Udemy | The Complete JavaScript Course 2022: From Zero to Expert! by Jonas Schmedtmann <br />
+      Udemy | The Complete 2022 Web Development Bootcamp
+ by Dr. Angela Yu
+
+
       </SectionText>
       <SectionDivider /> <br />
       <SectionTitle>Skills and Abilities</SectionTitle>

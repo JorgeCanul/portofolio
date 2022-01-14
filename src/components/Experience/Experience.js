@@ -28,7 +28,7 @@ const data = [
 
 const Experience = () => (
   <Section >
-    <SectionTitle>E X P E R I E N C E</SectionTitle>
+    <SectionTitle>Experience</SectionTitle>
     <Boxes>{
       data.map((card, index) => (
         <Box key={index}>
