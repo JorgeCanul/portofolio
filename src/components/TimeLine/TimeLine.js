@@ -47,7 +47,7 @@ const Timeline = () => {
       <SectionDivider /> <br/>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-      In 2018 I left the hospitality industry to be at home with my daughter full-time. This change was the catalyst to my shifting focus to learning web development which I had recently developed an interest in. I quickly became passionated about the subject and the extra time at home created the perfect opportunity for me to pivot career paths. My drive and focus enabled me to primarily use self-lead learning. The skills I developed culminated into an acceptance to Kal Academy. I am passionate about learning, and I
+      In 2018 I left the hospitality industry to be at home with my daughter full-time. This change was the catalyst to my shifting focus to learning web development which I had recently developed an interest in. I quickly became passionate about the subject and the extra time at home created the perfect opportunity for me to pivot career paths. My drive and focus enabled me to primarily use self-lead learning. The skills I developed culminated into an acceptance to Kal Academy. I am passionate about learning, and I
       enjoy the challenge and reward of solving 
       code-related tasks. I believe my curious 
       nature, continuous love of learning, and 
@@ -102,9 +102,9 @@ const Timeline = () => {
       <SectionText>
       MANAGEMENT <br />
 	•  I used to oversee and coordinate wait staff during regular club hours and special events <br />
-	LIDERSHIP<br />
+	LEADERSHIP<br />
        	 • Provide help, training and guidance to existing and new club staff <br />  
-	MULTIFACED <br />
+    MULTIFACETED <br />
    	• Thorough understanding of the entire restaurant or Country Club experience as a result of holding many positions within the industry<br />
 	LANGUAGE <br />
 	• Fluent in English and Spanish 
