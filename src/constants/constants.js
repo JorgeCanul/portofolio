@@ -1,7 +1,16 @@
 export const projects = [
   {
-    title: 'MERAK Metal Co.',
-    description:"For this project I used Html, CSS/Bootstrap and Javascript/Jquery. I build this website for a local Metal bussiness in Bend OR.",
+    title: 'Grocery List',
+    description: "MERN CRUD operation SPA, this project uses react functional components, react hooks. Kal Academy project",
+      image: '/images/groceryList.png',
+      tags: ['MERN', 'MongoDB', 'Express', 'React', 'Node'],
+    source: 'https://dry-gorge-76514.herokuapp.com/?fbclid=IwAR1EkAeEcVBoCl7AY_QPFh6j6HCzAl08wEgbLprdJrnkYsRJD9Q3DVLAvBQ',
+    visit: 'https://github.com/JorgeCanul/Grocery-list-react-app',
+    id: 2,
+  },
+  {
+    title: 'MERAK metal co.',
+    description:"For this project I used Html, CSS/Bootstrap and Javascript/Jquery. I build this website for a local Metal business in Bend OR.",
       image: '/images/merak.png',
       tags: ['Html', 'CSS/bootstrap', 'Javascript', 'GreenSock-Animation'],
       source: 'https://jorgecanul.github.io/merak/',
@@ -17,15 +26,7 @@ export const projects = [
     visit: 'https://github.com/JorgeCanul/marse',
     id: 1,
   },
-  // {
-  //   title: 'WebRTC App',
-  //   description: "This is a code repository for the corresponding YouTube video. In this tutorial, we're going to build and deploy a React Video Chat Application using WebRTC.",
-  //     image: '/images/3.jpg',
-  //     tags: ['React', 'WebRTC'],
-  //   source: 'https://google.com',
-  //   visit: 'https://google.com',
-  //   id: 2,
-  // },
+  
   // {
   //   title: 'Unichat',
   //   description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
