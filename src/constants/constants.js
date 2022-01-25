@@ -1,11 +1,20 @@
 export const projects = [
   {
     title: 'Grocery List',
-    description: "MERN CRUD operation SPA, this project uses react functional components, react hooks. Kal Academy project",
+    description: "MERN CRUD operation SPA, this project uses React functional components, React Hooks. Kal Academy project",
       image: '/images/groceryList.png',
       tags: ['MERN', 'MongoDB', 'Express', 'React', 'Node'],
     source: 'https://dry-gorge-76514.herokuapp.com/?fbclid=IwAR1EkAeEcVBoCl7AY_QPFh6j6HCzAl08wEgbLprdJrnkYsRJD9Q3DVLAvBQ',
     visit: 'https://github.com/JorgeCanul/Grocery-list-react-app',
+    id: 1,
+  },
+  {
+    title: 'Connector',
+    description: "This is a MERN Stack Project implementing CRUD Operations with React, MongoDB, Redux global state and Node.js. Node.js Restfull API is created with get, post, and delete routes. Kal Academy project",
+    image: '/images/connector.png',
+    tags: ['MERN', 'MongoDB', 'Express', 'React', 'Node', 'CRUD', 'Redux', 'Passport'],
+    source: 'https://vast-oasis-07629.herokuapp.com/',
+    visit: 'https://github.com/JorgeCanul/connector',
     id: 2,
   },
   {
@@ -15,7 +24,7 @@ export const projects = [
       tags: ['Html', 'CSS/bootstrap', 'Javascript', 'GreenSock-Animation'],
       source: 'https://jorgecanul.github.io/merak/',
       visit: 'https://github.com/JorgeCanul/merak',
-      id: 0,
+      id: 3,
   },
   {
     title: 'Marze-Practice-Project',
@@ -24,18 +33,10 @@ export const projects = [
     tags: ['Html', 'CSS', 'JavaScript'],
     source: 'https://jorgecanul.github.io/marse/',
     visit: 'https://github.com/JorgeCanul/marse',
-    id: 1,
+    id: 4,
   },
   
-  // {
-  //   title: 'Unichat',
-  //   description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
-  //   image: '/images/4.jpg',
-  //   tags: ['React', 'ChatEngine', 'Firebase'],
-  //   source: 'https://google.com',
-  //   visit: 'https://google.com',
-  //   id: 3,
-  // },
+  
 ];
 
 export const TimeLineData = [
