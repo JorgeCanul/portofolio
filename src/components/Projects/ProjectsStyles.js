@@ -123,9 +123,13 @@ transition: 0.5s;
 `;
 
 export const TagList = styled.ul`
-display: flex-wrap;
-justify-content: space-around;
+display: flex;
+justify-content: space-evenly;
 padding: 2rem;
+@media ${(props) => props.theme.breakpoints.sm} {
+  display: flex;
+  flex-direction: column;
+}
 `
 export const Tag = styled.li`
 color: #d8bfbf;
