@@ -15,7 +15,7 @@ export const Boxes = styled.div`
 
   @media ${props => props.theme.breakpoints.sm}{
     display: grid;
-    grid-template-columns: (4, 1fr);
+    grid-template-columns: 1fr;
     gap: 10px;
     max-width: 500px;
     margin: 24px auto;
@@ -25,71 +25,65 @@ export const Boxes = styled.div`
 export const Box = styled.div`
   background: #212D45;
   border-radius: 12px;
-  height: 60rem;
-  padding: 24px;
-  @media ${props => props.theme.breakpoints.lg} {
-    height: 90rem;
+  min-height: 60rem;
+  padding: 30px;
+  overflow-y: auto;
 
+  @media ${props => props.theme.breakpoints.lg} {
+    min-height: 90rem;
   }
 
   @media ${props => props.theme.breakpoints.md} {
-    height: 50rem;
+    min-height: 50rem;
     padding: 16px;
   }
 
   @media ${props => props.theme.breakpoints.sm} {
-    height: 50rem;
-    padding: 12px;
-    
-    &:nth-child(2n){
-      grid-row:2;
-    }
+    min-height: 50rem;
+    padding: 30px;
   }
 
   @media ${props => props.theme.breakpoints.xsm} {
-    height: 56rem;
-    padding: 12px;
-    
-    &:nth-child(2n){
-      grid-row:2;
-    }
+    min-height: 30rem;
+    padding: 30px;
   }
 `
 export const BoxNum = styled.h5`
   font-style: normal;
   font-weight: 600;
   font-size: 2.25rem;
-  line-height: 40px;
+  line-height: 1.2;
   letter-spacing: 0.01em;
   color: #FFFFFF;
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 1.50rem;
-    line-height: 32px;
+    line-height: 1.2;
   }
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 1.40rem;
-    line-height: 21px;
-}
+    font-size: 1.90rem;
+    line-height: 1.2;
+  }
 `
 
 export const BoxText = styled.p`
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
+  margin: 0;
 
   @media ${props => props.theme.breakpoints.md}{
     font-size: 14px;
-    line-height: 20px;
+    line-height: 1.5;
   };
 
   @media ${props => props.theme.breakpoints.sm} {
-    font-size: 1.0.1rem;
-    line-height: 14px;
+    font-size: 17px;
+    line-height: 1.2;
   }
 `
 

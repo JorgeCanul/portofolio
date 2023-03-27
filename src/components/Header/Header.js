@@ -14,8 +14,8 @@ const Header = () =>  (
        <a style={{ display: 'flex', 
        alignItems: 'center', 
        color: 'white', marginBottom: '10px'}}>
-         <img style={{padding: '1rem'}} src={Logo.image} width="27%" />
-         <Span>Portofolio</Span>
+         <img src={Logo.image} width="30%" />
+         {/* <Span>Portofolio</Span> */}
        </a>
      </Link>
    </Div1>

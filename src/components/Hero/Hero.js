@@ -9,9 +9,8 @@ const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-      Bienvenido, <br/>Welcome to My Portofolio
+      Bienvenido, <br/>Welcome to Jorge's Portfolio
       </SectionTitle>
-      
       <Link href='#about'>
       <Button >Learn More</Button>
       </Link>

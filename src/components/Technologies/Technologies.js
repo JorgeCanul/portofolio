@@ -1,9 +1,9 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend, DiJsBadge } from 'react-icons/di';
 import { AiOutlineCluster } from "react-icons/ai"
-import { DiJsBadge} from 'react-icons/di'
+// import { DiJsBadge} from 'react-icons/di'
 import { Section, SectionDivider, SectionSubText, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
+import { List, ListContainer, ListItem, ListParagraph, ListTitle, ListIcon } from './TechnologiesStyles';
 
 const Technologies = () =>  (
   <Section id="tech">
@@ -26,7 +26,7 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br/> Node and Databases, Passport, MongoDB
+            Experience with <br/> Node and Databases,Postman, Passport, MongoDB
           </ListParagraph>
         </ListContainer>
       </ListItem>

@@ -3,20 +3,17 @@ import styled from 'styled-components'
 
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
-  background: #0F1624;
+  background: #212D45;
   padding: 0rem;
   list-style:none;
   display: flex;
   justify-content: space-between; 
   /* overflow-x: hidden; */
-
   margin-left: 32px;
-  &:first-of-type{
+  &:first-of-type {
     margin-left: 0px;
   }
-
   margin-bottom: 80px;
-
   //remove scrollbar
   scrollbar-width: none;  
    &::-webkit-scrollbar {
@@ -30,6 +27,8 @@ export const CarouselContainer = styled.ul`
     touch-action: pan-x;
     justify-content: initial;
     margin-bottom: 8px;
+    /*Removes ul's b_colors*/
+    background-color: #212d4500;
   }
 `
 export const CarouselMobileScrollNode = styled.div`
@@ -38,12 +37,13 @@ export const CarouselMobileScrollNode = styled.div`
     min-width: ${({ final }) => final ? `120%;` : `min-content`}
   }
 `
-
+/*  Carousel Item */
 export const CarouselItem = styled.div`
-  background: #0F1624;
+  background: #212D45;
   border-radius: 3px;
   max-width: 196px;
-
+  // text-align: center;
+  padding: 1em;
   @media ${props => props.theme.breakpoints.md} {
     max-width: 124px;
   }
@@ -75,6 +75,7 @@ export const CarouselItemTitle = styled.h4`
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 8px;
+  
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 20px;
@@ -151,4 +152,16 @@ export const CarouselButtonDot = styled.div`
   margin: auto;
   width: 3px;
   height: 3px;
+`
+export const TimeLineSocialContainer = styled.div`
+	display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+
+	@media ${props => props.theme.breakpoints.md}{
+		justify-content: center;
+		padding-right: 16px;
+    padding-bottom: 20px;
+		flex-wrap: wrap;
+	}
 `
